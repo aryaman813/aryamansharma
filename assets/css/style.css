@@ -1222,6 +1222,34 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
+.about .article-title { margin-bottom: 20px; }
+
+  .about-text { 
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+   }
+
+  .about-picture-box img {
+    margin-right: 3%;
+    width: 90%;
+    height: auto;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+
+    -webkit-justify-content: space-between; 
+    justify-content: space-between; 
+  }
+  
+
 
 
 
@@ -1250,6 +1278,34 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .project-img,
   .blog-banner-box { height: auto; }
+
+  .about .article-title { margin-bottom: 20px; }
+
+  .about-text { 
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: row;
+   }
+
+  .about-picture-box img {
+    margin-right: 3%;
+    width: 90%;
+    height: auto;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+
+    -webkit-justify-content: space-between; 
+    justify-content: space-between; 
+  }
+  
 
 }
 
@@ -1397,13 +1453,20 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .about-picture-box img {
     margin-right: 3%;
-    /* display: flex;
-    justify-content: flex-start; */
+
     width: 90%;
-    height: 30%;
-    /* object-fit: cover; */
-    /* object-position: 50% 50%; */
-    /* transition: var(--transition-1); */
+
+    height: auto;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-justify-content: space-between; 
+    justify-content: space-between; 
   }
   
 
