@@ -1455,7 +1455,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .about-picture-box img {
     margin-right: 3%;
 
-    width: 100%;
+    width: 200%;
 
     height: auto;
     -ms-box-orient: horizontal;
